@@ -23,8 +23,9 @@ a {
     color:rgb(168, 163, 156);
 }
 img {
-    width: 100%;
-    margin: 0%;
+    width: 120px;
+    margin: 30px;
+    border-radius: 5%;
 }
 mark {
     background-color: rgba(240, 255, 255, 0);
