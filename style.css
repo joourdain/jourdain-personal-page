@@ -25,7 +25,6 @@ a {
 img {
     width: 100px;
     margin: 30px;
-    border-radius: 5%;
 }
 mark {
     background-color: rgba(240, 255, 255, 0);
@@ -41,4 +40,18 @@ h4 {
 p {
     margin: 30px;
     line-height: 200%;
+}
+@keyframes fadeIn1 {
+    0% {
+        transform: translateX(-15%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.fadeIn1-animation {
+    animation: 1.5s fadeIn1;
 }
